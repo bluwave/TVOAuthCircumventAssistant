@@ -10,8 +10,10 @@ import Foundation
 import Alamofire
 
 public struct TVOAuthCircumventAssistantConfiguration {
-    var tvTokenFetchURL:String?
-    var retrieveAuthenticationInfoURL: String?
+    public var tvTokenFetchURL:String?
+    public var retrieveAuthenticationInfoURL: String?
+ 
+    public init() {}
 }
 
 public let TVOAuthCircumventAssistantDomain:String = "com.acme.TVOAuthCircumventAssistant"

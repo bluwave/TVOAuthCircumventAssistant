@@ -1,25 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="6185.10" systemVersion="14A360a" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="NO" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="hjr-e0-ZmB">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="ke0-9Q-4de">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AuthenticateViewController" id="hjr-e0-ZmB" customClass="ViewController" customModule="TVOAuthCircumventAssistant" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="HRc-Nh-YZY"/>
+                        <viewControllerLayoutGuide type="bottom" id="y44-1H-Ih5"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                    <view key="view" contentMode="scaleToFill" id="WMi-c4-KR2">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please visit the URL on a mobile device to connect your account" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HsN-9a-8hn">
+                                <rect key="frame" x="100" y="100" width="1720" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="h6F-IP-dZi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;code or URL here&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1w-98-QGz">
+                                <rect key="frame" x="120" y="440" width="1680" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="plh-uo-ZRy"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="rRc-yX-i12"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZb-um-Pxs">
+                                <rect key="frame" x="120" y="894" width="1680" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="dHx-g5-2Gh"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Click here when done authenticating with OAuth provider"/>
+                                <connections>
+                                    <action selector="actionDoneAuthenticatingWithOAuthProvider:" destination="hjr-e0-ZmB" eventType="touchUpInside" id="wuN-SL-tNc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="M1w-98-QGz" firstAttribute="leading" secondItem="WMi-c4-KR2" secondAttribute="leadingMargin" constant="100" id="2il-Dj-pH9"/>
+                            <constraint firstAttribute="trailing" secondItem="HsN-9a-8hn" secondAttribute="trailing" constant="100" id="C7G-BB-ILj"/>
+                            <constraint firstItem="y44-1H-Ih5" firstAttribute="top" secondItem="bZb-um-Pxs" secondAttribute="bottom" constant="100" id="DBO-Vc-0Lt"/>
+                            <constraint firstItem="bZb-um-Pxs" firstAttribute="leading" secondItem="WMi-c4-KR2" secondAttribute="leadingMargin" constant="100" id="DSj-UM-UDQ"/>
+                            <constraint firstItem="HsN-9a-8hn" firstAttribute="leading" secondItem="WMi-c4-KR2" secondAttribute="leading" constant="100" id="Gbc-7G-75i"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M1w-98-QGz" secondAttribute="trailing" constant="100" id="WHY-To-rUJ"/>
+                            <constraint firstItem="M1w-98-QGz" firstAttribute="centerY" secondItem="WMi-c4-KR2" secondAttribute="centerY" id="hNF-UB-Rly"/>
+                            <constraint firstItem="HsN-9a-8hn" firstAttribute="top" secondItem="HRc-Nh-YZY" secondAttribute="bottom" constant="100" id="mVo-33-MDk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bZb-um-Pxs" secondAttribute="trailing" constant="100" id="yOs-1K-0Hd"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="URLLabel" destination="M1w-98-QGz" id="qMm-xh-uwT"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ke-pE-3FF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="445" y="-737"/>
         </scene>
     </scenes>
 </document>

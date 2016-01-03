@@ -44,7 +44,7 @@
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Click here when done authenticating with OAuth provider"/>
                                 <connections>
-                                    <action selector="actionDoneAuthenticatingWithOAuthProvider:" destination="hjr-e0-ZmB" eventType="touchUpInside" id="wuN-SL-tNc"/>
+                                    <action selector="actionDoneAuthenticatingWithOAuthProvider:" destination="hjr-e0-ZmB" eventType="primaryActionTriggered" id="Ywa-Vq-XkA"/>
                                 </connections>
                             </button>
                         </subviews>

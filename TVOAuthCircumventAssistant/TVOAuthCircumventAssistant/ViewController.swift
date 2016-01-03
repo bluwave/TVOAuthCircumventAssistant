@@ -16,8 +16,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureAssistant()
-        
+        if(!unitTestsRunning()) {
+            configureAssistant()
+        }
     }
     
     private func configureAssistant() {
@@ -60,6 +61,15 @@ class ViewController: UIViewController {
 
     @IBAction func actionDoneAuthenticatingWithOAuthProvider(sender: UIButton) {
         retrieveOAuthAuthenticationInfo()
+    }
+    
+    private func unitTestsRunning() -> Bool {
+        let injectBundlePath:NSString? = NSProcessInfo.processInfo().environment["XCInjectBundle"]
+        if(injectBundlePath?.pathExtension == "xctest") {
+            return true
+        }
+        return false
+
     }
 }
 

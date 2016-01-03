@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276CD6D11C38AAD50091920C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6D01C38AAD50091920C /* AppDelegate.swift */; };
+		276CD6D31C38AAD50091920C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6D21C38AAD50091920C /* ViewController.swift */; };
+		276CD6D61C38AAD50091920C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276CD6D41C38AAD50091920C /* Main.storyboard */; };
+		276CD6D81C38AAD50091920C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276CD6D71C38AAD50091920C /* Assets.xcassets */; };
+		276CD6E31C38AAD50091920C /* TVOAuthCircumventAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6E21C38AAD50091920C /* TVOAuthCircumventAssistantTests.swift */; };
+		276CD6EF1C38AB580091920C /* TVOAuthCircumventAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6EE1C38AB580091920C /* TVOAuthCircumventAssistant.swift */; };
+		503D4477471DD93CE4DF776C /* Pods_TVOAuthCircumventAssistantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE5C9392E89BE75E9B616E6 /* Pods_TVOAuthCircumventAssistantTests.framework */; };
+		879899758EB10439FDD24F36 /* Pods_TVOAuthCircumventAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881965337735F5D4769659B5 /* Pods_TVOAuthCircumventAssistant.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276CD6DF1C38AAD50091920C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276CD6C51C38AAD50091920C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276CD6CC1C38AAD50091920C;
+			remoteInfo = TVOAuthCircumventAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		276CD6CD1C38AAD50091920C /* TVOAuthCircumventAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVOAuthCircumventAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276CD6D01C38AAD50091920C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		276CD6D21C38AAD50091920C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		276CD6D51C38AAD50091920C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		276CD6D71C38AAD50091920C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276CD6D91C38AAD50091920C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276CD6DE1C38AAD50091920C /* TVOAuthCircumventAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVOAuthCircumventAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276CD6E21C38AAD50091920C /* TVOAuthCircumventAssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOAuthCircumventAssistantTests.swift; sourceTree = "<group>"; };
+		276CD6E41C38AAD50091920C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276CD6EE1C38AB580091920C /* TVOAuthCircumventAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TVOAuthCircumventAssistant.swift; path = ../Source/TVOAuthCircumventAssistant.swift; sourceTree = "<group>"; };
+		5ABDEE067699632722E1E539 /* Pods-TVOAuthCircumventAssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOAuthCircumventAssistantTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TVOAuthCircumventAssistantTests/Pods-TVOAuthCircumventAssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68A14F3736EE3E0D535E767A /* Pods-TVOAuthCircumventAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOAuthCircumventAssistantTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TVOAuthCircumventAssistantTests/Pods-TVOAuthCircumventAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
+		881965337735F5D4769659B5 /* Pods_TVOAuthCircumventAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOAuthCircumventAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E4639055F48094996BA666 /* Pods-TVOAuthCircumventAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOAuthCircumventAssistant.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TVOAuthCircumventAssistant/Pods-TVOAuthCircumventAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		DECA78806C829776333E1E7F /* Pods-TVOAuthCircumventAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOAuthCircumventAssistant.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TVOAuthCircumventAssistant/Pods-TVOAuthCircumventAssistant.debug.xcconfig"; sourceTree = "<group>"; };
+		EFE5C9392E89BE75E9B616E6 /* Pods_TVOAuthCircumventAssistantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOAuthCircumventAssistantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276CD6CA1C38AAD50091920C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879899758EB10439FDD24F36 /* Pods_TVOAuthCircumventAssistant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276CD6DB1C38AAD50091920C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503D4477471DD93CE4DF776C /* Pods_TVOAuthCircumventAssistantTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276CD6C41C38AAD50091920C = {
+			isa = PBXGroup;
+			children = (
+				276CD6ED1C38AAF60091920C /* Source */,
+				276CD6CF1C38AAD50091920C /* TVOAuthCircumventAssistant */,
+				276CD6E11C38AAD50091920C /* TVOAuthCircumventAssistantTests */,
+				276CD6CE1C38AAD50091920C /* Products */,
+				9F4A29C3AE1CC4382F233163 /* Pods */,
+				74A3F1092B5C7AED087655FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		276CD6CE1C38AAD50091920C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276CD6CD1C38AAD50091920C /* TVOAuthCircumventAssistant.app */,
+				276CD6DE1C38AAD50091920C /* TVOAuthCircumventAssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276CD6CF1C38AAD50091920C /* TVOAuthCircumventAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				276CD6D01C38AAD50091920C /* AppDelegate.swift */,
+				276CD6D21C38AAD50091920C /* ViewController.swift */,
+				276CD6D41C38AAD50091920C /* Main.storyboard */,
+				276CD6D71C38AAD50091920C /* Assets.xcassets */,
+				276CD6D91C38AAD50091920C /* Info.plist */,
+			);
+			path = TVOAuthCircumventAssistant;
+			sourceTree = "<group>";
+		};
+		276CD6E11C38AAD50091920C /* TVOAuthCircumventAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				276CD6E21C38AAD50091920C /* TVOAuthCircumventAssistantTests.swift */,
+				276CD6E41C38AAD50091920C /* Info.plist */,
+			);
+			path = TVOAuthCircumventAssistantTests;
+			sourceTree = "<group>";
+		};
+		276CD6ED1C38AAF60091920C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				276CD6EE1C38AB580091920C /* TVOAuthCircumventAssistant.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		74A3F1092B5C7AED087655FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				881965337735F5D4769659B5 /* Pods_TVOAuthCircumventAssistant.framework */,
+				EFE5C9392E89BE75E9B616E6 /* Pods_TVOAuthCircumventAssistantTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F4A29C3AE1CC4382F233163 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DECA78806C829776333E1E7F /* Pods-TVOAuthCircumventAssistant.debug.xcconfig */,
+				91E4639055F48094996BA666 /* Pods-TVOAuthCircumventAssistant.release.xcconfig */,
+				5ABDEE067699632722E1E539 /* Pods-TVOAuthCircumventAssistantTests.debug.xcconfig */,
+				68A14F3736EE3E0D535E767A /* Pods-TVOAuthCircumventAssistantTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276CD6CC1C38AAD50091920C /* TVOAuthCircumventAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276CD6E71C38AAD50091920C /* Build configuration list for PBXNativeTarget "TVOAuthCircumventAssistant" */;
+			buildPhases = (
+				F6D728180BA3ABE187C76034 /* Check Pods Manifest.lock */,
+				276CD6C91C38AAD50091920C /* Sources */,
+				276CD6CA1C38AAD50091920C /* Frameworks */,
+				276CD6CB1C38AAD50091920C /* Resources */,
+				6EF22E4C8A32D7E8D2D1B19F /* Embed Pods Frameworks */,
+				81B3644027E71985DDED3F69 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVOAuthCircumventAssistant;
+			productName = TVOAuthCircumventAssistant;
+			productReference = 276CD6CD1C38AAD50091920C /* TVOAuthCircumventAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		276CD6DD1C38AAD50091920C /* TVOAuthCircumventAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276CD6EA1C38AAD50091920C /* Build configuration list for PBXNativeTarget "TVOAuthCircumventAssistantTests" */;
+			buildPhases = (
+				4DB6516756D45E9C69D796D3 /* Check Pods Manifest.lock */,
+				276CD6DA1C38AAD50091920C /* Sources */,
+				276CD6DB1C38AAD50091920C /* Frameworks */,
+				276CD6DC1C38AAD50091920C /* Resources */,
+				3441C4BC040F7D63CC66BD12 /* Embed Pods Frameworks */,
+				DEC7C5FB2058FA7635A0C3E0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276CD6E01C38AAD50091920C /* PBXTargetDependency */,
+			);
+			name = TVOAuthCircumventAssistantTests;
+			productName = TVOAuthCircumventAssistantTests;
+			productReference = 276CD6DE1C38AAD50091920C /* TVOAuthCircumventAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276CD6C51C38AAD50091920C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Garrett Richards";
+				TargetAttributes = {
+					276CD6CC1C38AAD50091920C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					276CD6DD1C38AAD50091920C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 276CD6CC1C38AAD50091920C;
+					};
+				};
+			};
+			buildConfigurationList = 276CD6C81C38AAD50091920C /* Build configuration list for PBXProject "TVOAuthCircumventAssistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276CD6C41C38AAD50091920C;
+			productRefGroup = 276CD6CE1C38AAD50091920C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276CD6CC1C38AAD50091920C /* TVOAuthCircumventAssistant */,
+				276CD6DD1C38AAD50091920C /* TVOAuthCircumventAssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276CD6CB1C38AAD50091920C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276CD6D81C38AAD50091920C /* Assets.xcassets in Resources */,
+				276CD6D61C38AAD50091920C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276CD6DC1C38AAD50091920C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3441C4BC040F7D63CC66BD12 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TVOAuthCircumventAssistantTests/Pods-TVOAuthCircumventAssistantTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB6516756D45E9C69D796D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF22E4C8A32D7E8D2D1B19F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TVOAuthCircumventAssistant/Pods-TVOAuthCircumventAssistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81B3644027E71985DDED3F69 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TVOAuthCircumventAssistant/Pods-TVOAuthCircumventAssistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC7C5FB2058FA7635A0C3E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TVOAuthCircumventAssistantTests/Pods-TVOAuthCircumventAssistantTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D728180BA3ABE187C76034 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276CD6C91C38AAD50091920C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276CD6D31C38AAD50091920C /* ViewController.swift in Sources */,
+				276CD6D11C38AAD50091920C /* AppDelegate.swift in Sources */,
+				276CD6EF1C38AB580091920C /* TVOAuthCircumventAssistant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276CD6DA1C38AAD50091920C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276CD6E31C38AAD50091920C /* TVOAuthCircumventAssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276CD6E01C38AAD50091920C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276CD6CC1C38AAD50091920C /* TVOAuthCircumventAssistant */;
+			targetProxy = 276CD6DF1C38AAD50091920C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		276CD6D41C38AAD50091920C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276CD6D51C38AAD50091920C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		276CD6E51C38AAD50091920C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		276CD6E61C38AAD50091920C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276CD6E81C38AAD50091920C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECA78806C829776333E1E7F /* Pods-TVOAuthCircumventAssistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TVOAuthCircumventAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.TVOAuthCircumventAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276CD6E91C38AAD50091920C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E4639055F48094996BA666 /* Pods-TVOAuthCircumventAssistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TVOAuthCircumventAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.TVOAuthCircumventAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		276CD6EB1C38AAD50091920C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABDEE067699632722E1E539 /* Pods-TVOAuthCircumventAssistantTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TVOAuthCircumventAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.TVOAuthCircumventAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOAuthCircumventAssistant.app/TVOAuthCircumventAssistant";
+			};
+			name = Debug;
+		};
+		276CD6EC1C38AAD50091920C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A14F3736EE3E0D535E767A /* Pods-TVOAuthCircumventAssistantTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TVOAuthCircumventAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.TVOAuthCircumventAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOAuthCircumventAssistant.app/TVOAuthCircumventAssistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276CD6C81C38AAD50091920C /* Build configuration list for PBXProject "TVOAuthCircumventAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276CD6E51C38AAD50091920C /* Debug */,
+				276CD6E61C38AAD50091920C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276CD6E71C38AAD50091920C /* Build configuration list for PBXNativeTarget "TVOAuthCircumventAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276CD6E81C38AAD50091920C /* Debug */,
+				276CD6E91C38AAD50091920C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276CD6EA1C38AAD50091920C /* Build configuration list for PBXNativeTarget "TVOAuthCircumventAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276CD6EB1C38AAD50091920C /* Debug */,
+				276CD6EC1C38AAD50091920C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 276CD6C51C38AAD50091920C /* Project object */;
+}

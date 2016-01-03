@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TVOAuthCircumventAssistant"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Set of tools to help with OAuth authentication on tvOS"
   s.homepage         = "https://github.com/bluwave/TVOAuthCircumventAssistant"
   s.license          = 'MIT'

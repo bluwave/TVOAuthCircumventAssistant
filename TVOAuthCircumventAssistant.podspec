@@ -8,9 +8,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/bluwave/TVOAuthCircumventAssistant.git", :tag => s.version.to_s }
   s.platform     	 = :tvos, '9.0'
   s.requires_arc 	 = true
-
-  s.source_files = 'Source/**/*'
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-	s.dependency 'Alamofire', '~> 3.1'
+  s.source_files = 'Source/*.{h,m,swift}'
+  s.dependency 'Alamofire', '~> 3.1'
 end
